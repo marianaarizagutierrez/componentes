@@ -1,19 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="compo5.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <form class="formulario">
+        <img src="m.png" alt="" class="img">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre"><br><br>
+        <input type="text" id="nombre" name="nombre" class="input">
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <input type="submit" value="Enviar">
+        <input type="email" id="email" name="email" class="input">
+        <label for="edad">edad:</label>
+        <input type="text" id="text" name="text" class="input">
+        <label for="telefono">telefono:</label>
+        <input type="text" id="direccion" name="direccion" class="input">
+        <button class="boton">registarse</button>
       </form>
-      
+      <form class="formulario">
+        <img src="m.png" alt="" class="img">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="input">
+        <label for="contraseña">contraseña:</label>
+        <input type="text" id="text" name="text" class="input">
+        <button class="boton">iniciar seccion</button>
+      </form>
+     <div class="contenedor">
+      <div class="grupo">
+        <div class="info">
+            <img src="R.jpg" alt="" class="grupo__img">
+            <div class="botones">
+                <span class="nombre">Jose</span>
+                <span class="descripcion">desarrollador web</span>
+            </div>
+          </div>
+          <div class="grupo__iconos">
+            <a href="#">
+              <i class=' icon bx bx-qr'></i>
+            </a>
+            <a href="#">
+              <i class='icon bx bx-down-arrow-circle' ></i>
+            </a>
+          </div>
+      </div>
+    </div>
+    </form>
 </body>
 </html>
