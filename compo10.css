@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.perfiles {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.perfil {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.profile__image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile__info {
+    padding: 16px;
+}
+
+.profile__name {
+    font-size: 1.25rem;
+    margin: 0;
+    color: #333;
+}
+
+.profile__description {
+    font-size: 0.875rem;
+    color: #666;
+    margin: 8px 0;
+}
